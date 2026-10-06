@@ -1,0 +1,56 @@
+export const TEAM_COLORS = {
+  "Red Bull": "#3671C6",
+  "Mercedes": "#27F4D2",
+  "Ferrari": "#E8002D",
+  "McLaren": "#FF8000",
+  "Aston Martin": "#358C75",
+  "Alpine": "#FF87BC",
+  "Alpine F1 Team": "#FF87BC",
+  "Williams": "#64C4FF",
+  "AlphaTauri": "#6692FF",
+  "RB F1 Team": "#6692FF",
+  "Alfa Romeo": "#C92D4B",
+  "Haas": "#B6BABD",
+  "Haas F1 Team": "#B6BABD",
+  "Racing Point": "#F596C8",
+  "Renault": "#FFF500",
+  "Toro Rosso": "#469BFF",
+  "Force India": "#F596C8",
+  "Sauber": "#C92D4B",
+  // Historic constructors (2000–2016) — used for monogram badges + UMAP colours
+  "Honda": "#E40521",
+  "BAR": "#D40000",
+  "Toyota": "#EB0A1E",
+  "BMW Sauber": "#0057B8",
+  "Jaguar": "#0A5C36",
+  "Jordan": "#E8B400",
+  "Minardi": "#0A1E3C",
+  "Brawn": "#B4E600",
+  "Benetton": "#00A551",
+  "Super Aguri": "#B5121B",
+  "Spyker": "#FF6A00",
+  "Spyker MF1": "#FF6A00",
+  "MF1": "#E2001A",
+  "Midland": "#E2001A",
+  "Caterham": "#0B573F",
+  "HRT": "#B79C6A",
+  "Manor": "#0067AD",
+  "Marussia": "#6E0000",
+  "Virgin": "#E2001A",
+  "Lotus": "#004A2F",
+  "Lotus F1 Team": "#FFB800",
+  "Prost": "#0033A0",
+  "Arrows": "#F58220",
+};
+
+export const COMPOUND_COLORS = {
+  SOFT: "#E8002D",
+  MEDIUM: "#FFF200",
+  HARD: "#FFFFFF",
+  INTERMEDIATE: "#39B54A",
+  WET: "#0067FF",
+};
+
+export function getTeamColor(constructor) {
+  return TEAM_COLORS[constructor] || "#888888";
+}

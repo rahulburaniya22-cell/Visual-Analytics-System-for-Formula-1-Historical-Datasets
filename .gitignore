@@ -1,0 +1,14 @@
+node_modules/
+venv/
+cache/
+output/
+frontend/data/
+frontend/dist/
+frontend/test.html
+__pycache__/
+*.pyc
+.DS_Store
+mock_data/
+test.ipynb
+*.parquet
+frontend/public/*.parquet
